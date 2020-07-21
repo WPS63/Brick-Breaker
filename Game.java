@@ -13,6 +13,10 @@ import javax.swing.JPanel;
 
 public class Game extends JPanel implements KeyListener, ActionListener
 {
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 	private boolean play = false;
 	private int score = 0;
 	private int totalBricks = 21;
@@ -22,7 +26,7 @@ public class Game extends JPanel implements KeyListener, ActionListener
 	
 	private int playerX = 310;
 	
-	private int ballPosX = 120;
+	private int ballPosX = 320;
 	private int ballPosY = 350;
 	private int ballDirX = -1;
 	private int ballDirY = -2;
